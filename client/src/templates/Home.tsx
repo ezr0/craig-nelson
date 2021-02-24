@@ -10,7 +10,7 @@ const Home = () => {
     }, []);
 
     return (
-        <h1>{!data ? "Loading..." : data}</h1>
+        <h1>{!data ? "Loading...." : data}</h1>
     )
 }
 
