@@ -7,7 +7,7 @@ const ContentStyled = styled.div`
     .about-me {
         display: grid;
         grid-template-columns: 1fr 4fr 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 100vh 100vh auto;
         margin-top: 10rem;
         gap: 5rem;
 
